@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1 {
+  text-transform: uppercase
+}
+
+#data-table {
+  margin: 1em 0;
+}
+
+#data-table .col {
+  background: #efefef;
+  padding: 1em;
+  border: solid 1px #cccccc
+}
+
+#data-table .col:first-child{
+  font-weight: bold;
+}
